@@ -6,4 +6,4 @@ Webside with JS real project for client
   npm init  --yes
   npm i express
   npm i -D nodemon
-  
+2. Setup express
