@@ -1,6 +1,7 @@
 # Story-Kids
 Webside with JS real project for client
-
+## Start Project
+ 1. npm start
 ## Developing Steps
  1. Initial Project Architecture
   npm init  --yes
