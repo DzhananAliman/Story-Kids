@@ -7,3 +7,4 @@ Webside with JS real project for client
   npm i express
   npm i -D nodemon
 2. Setup express
+3. Setup handlebars
