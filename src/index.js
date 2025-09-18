@@ -1,7 +1,7 @@
 import express from 'express';
 import handlebars from 'express-handlebars';
+import routes from './routes.js';
 
-import homeController from './controllers/homeController.js';
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.set('views', './src/views');
 
 app.use(express.static('public'));
 
-app.use(homeController);
+app.use(routes);
 
 
 
