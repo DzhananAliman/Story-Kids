@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
     res.render('home');
 });
 
-router.get('/test',(req, res) => {
+router.get('/about',(req, res) => {
     res.send('test');
 });
 
