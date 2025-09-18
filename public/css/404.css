@@ -1,5 +1,11 @@
 .full-screen {
-  background-color: #6D6875;
+   background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
   width: 100%;
   margin-top: 3em;
   height: 530px;

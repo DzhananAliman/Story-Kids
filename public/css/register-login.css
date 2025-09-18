@@ -37,7 +37,13 @@
 
 .info {
     width: 250px;
-    background: #6D6875;
+    background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
     padding: 55px 5px;
     border-right: 5px solid black;
 }

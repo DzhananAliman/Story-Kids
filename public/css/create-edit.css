@@ -1,6 +1,12 @@
 .createSection,
 .editSection {
-  background-color: #b5838d;
+   background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
   margin: auto;
   width: 740px;
   height: 950px;
@@ -40,7 +46,13 @@ input[type=number]::-webkit-outer-spin-button {
 #create-btn,
 #edit-btn {
   border: 1px solid black;
-  background: #6d6875;
+  background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
   font-size: 18px;
   color: white;
   margin-top: 20px;

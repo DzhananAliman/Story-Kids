@@ -10,8 +10,14 @@
     display: flex;
     left: 55%;
     max-width: 1000px;
-    background-color: #6D6875;
-    box-shadow: 0 0px 81px #5b848a;
+    background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
+    box-shadow: 0 0px 81px #e2eaeb;
 }
 
 #stars {

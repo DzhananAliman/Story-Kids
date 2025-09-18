@@ -34,8 +34,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  box-shadow: 0 0px 81px #5b848a;
-  background-color: #6D6875;
+  box-shadow: 0 0px 81px white;
+  background: white;
+    background: linear-gradient(
+    90deg,
+    white 7%,
+    rgb(252, 186, 197) 48%,
+    rgb(123, 211, 245)  96%
+  );
   padding-top: 20px;
   padding-bottom: 20px;
   margin-left: 1.5em;
@@ -110,14 +116,14 @@
   height: 450px;
   width: 350px;
   padding: 1em 1em;
-  background: #FFB4A2;
+  background: white;
   border-radius: 10px;
 }
 
 .flip > .back > h2 {
   font-size: 1.5rem;
   padding-top: 5px;
-  color: grey;
+  color: white;
 }
 
 .flip > .back > p {
